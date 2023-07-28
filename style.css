@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+#main_header {
+    background-color: #484646;
+    height: 150vh;
+}
+a {
+    text-decoration: none;
+}
+#nav_text, a {
+    color: #8b8b8b;
+}
+#nav_text:hover, a:hover {
+    color: #fff;
+    transition: ease 500ms;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: #8b8b8b;
+}
+#logo_image{
+    position: absolute;
+    left: 0;
+    margin-left: 9vh;
+}
+#logo_name {
+    color: #fff;
+    position: absolute;
+    margin-left: 17vh;
+    left: 0;
+    
+}
+li {
+    display: inline;
+    margin: 50px;
+    font-size: 20px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+}
+#info_mobile{
+    display: none;
+    background-color: #484646;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    padding-bottom: 30px;
+    
+}
+#info_logo {
+    background-color: #2B2B2B;
+    border: 2px solid #000;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 50px;
+}
+#info_main {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    font-size: 25px;
+    margin-left: 9vh;
+    margin-top: 5vh;
+    line-height: 20px;
+    max-width: 500px;
+}
+#info_about {
+    line-height: 40px;
+}
+.info_socials {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    margin-right: 9vh;
+    margin-top: 5vh;
+    line-height: 40px;
+    max-width: 500px;
+    text-align: right;
+}
+#instagram_style:hover {
+    width: 50px;
+    transition: all 250ms;
+}
+#instagram_style:not(:hover) {
+    width: 40px;
+    transition: all 250ms;
+}
+#socials {
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    padding: 10px;
+}
+#linkedin_style {
+    position: relative;
+    left: 0;
+    margin-left: 9vh;
+    padding: 10px;
+    margin-top: 4px;
+}
+#linkedin_style:hover {
+    width: 150px;
+    transition: all 250ms;
+}
+#linkedin_style:not(:hover) {
+    width: 100px;
+    transition: all 250ms;
+}
+#youtube_style {
+    position: relative;
+    padding: 10px;
+    margin-top: 4px;
+}
+#youtube_style:hover {
+    width: 150px;
+    transition: all 250ms;
+}
+#youtube_style:not(:hover) {
+    width: 100px;
+    transition: all 250ms;
+}
+#github_style {
+    position: relative;
+    padding: 10px;
+    margin-top: 4px;
+}
+#github_style:hover {
+    width: 150px;
+    transition: all 250ms;
+}
+#github_style:not(:hover) {
+    width: 100px;
+    transition: all 250ms;
+}
+#freelancer_style {
+    position: relative;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 9vh;
+}
+#freelancer_style:hover {
+    width: 150px;
+    transition: all 250ms;
+}
+#freelancer_style:not(:hover) {
+    width: 100px;
+    transition: all 250ms;
+}
+#main_content {
+    color: #fff;
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: auto;
+}
+#main_info {
+    text-align: center;
+    font-size: 30px;
+}
+#sec_info {
+    text-align: center;
+}
+#portfolio {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+#projects_frontend {
+    font-size: 25px;
+    color: #fff;
+}
+#frontend_line {
+    width: 350px;
+}
+#projects_appdev {
+    font-size: 25px;
+    color: #fff;
+}
+#appdev_line {
+    width: 350px;
+}
+#link_projects1:hover {
+    width: 400px;
+    transition: all ease-in-out 500ms;
+}
+#link_projects1:not(:hover) {
+    width: 350px;
+    transition: all ease-in-out 500ms;
+}
+#link_projects1 {
+    box-shadow: #2c2458 10px 5px 35px;
+}
+#link_projects2:hover {
+    width: 400px;
+    transition: all ease-in-out 500ms;
+}
+#link_projects2:not(:hover) {
+    width: 350px;
+    transition: all ease-in-out 500ms;
+}
+#link_projects2 {
+    box-shadow: #701096 10px 5px 35px;
+}
+#content_container {
+    background-color: rgb(29, 29, 29);
+}
+#footer_container {
+    margin-top: 100px;
+    color: #fff;
+    background-color: rgb(18, 19, 19);
+    text-align: center;
+    font-size: 30px;
+}
+.footer_contact {
+    padding-top: 100px;
+}
+#footer_email:hover {
+    width: 70px;
+    transition: all 250ms;
+}
+#footer_email:not(:hover) {
+    width: 40px;
+    transition: all 250ms;
+}
+#footer_line {
+    width: 90%;
+}
+#footer_copyright {
+    font-size: 20px;
+}
+.menu{
+    background-color: #2b2b2b67;
+    border-radius: 50px;
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+#menu_content{
+    display: none;
+    flex-direction: column;
+    padding: 5px;
+}  
+#menu_open{
+    cursor: pointer;
+    display: inline;
+}
+#menu_close{
+    display: none;
+    padding: 15px;
+    cursor: pointer;
+}
+@media (max-width: 1470px){
+    #info_main {
+        font-size: 20px;
+        line-height: 10px;
+        max-width: 250px;
+    }
+    .info_socials {
+        font-size: 20px;
+        max-width: 250px;
+    }
+}
+@media (max-width: 1090px){
+    #navbar {
+        display: flex;
+        justify-content: right;
+    }
+}
+@media (max-width: 950px){
+    #info_main {
+        font-size: 15px;
+        line-height: 5px;
+        max-width: 170px;
+    }
+    .info_socials {
+        font-size: 15px;
+        max-width: 190px;
+    }
+}
+@media (max-width: 900px){
+    
+    #nav_text {
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: relative;
+    }
+    #logo_name, #logo_image{
+        display: none;
+    }
+}
+@media(max-width: 800px){
+    #info_main, .info_socials{
+        display: none;
+    }
+    #info_mobile{
+        display: block;
+    }
+}
+@media (max-width: 730px){
+    #portfolio{
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    #projects_appdev{
+        margin-top: 20px;
+    }
+    #socials{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    #github {
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    #freelancer{
+        margin-top: 20px;
+    }
+}
